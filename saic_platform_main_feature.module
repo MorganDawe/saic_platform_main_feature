@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SAIC platform main feature feature.
+ */
+
+include_once 'saic_platform_main_feature.features.inc';
