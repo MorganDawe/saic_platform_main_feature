@@ -27,17 +27,17 @@ function saic_platform_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_advanced-search:node/9.
-  $menu_links['user-menu_advanced-search:node/9'] = array(
+  // Exported menu link: user-menu_advanced-search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f.
+  $menu_links['user-menu_advanced-search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f'] = array(
     'menu_name' => 'user-menu',
-    'link_path' => 'node/9',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
+    'router_path' => 'uuid',
     'link_title' => 'Advanced Search',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'user-menu_advanced-search:node/9',
+      'identifier' => 'user-menu_advanced-search:uuid/node/c4f960eb-e02b-4b17-9ef3-ab0e5931ac0f',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -47,17 +47,17 @@ function saic_platform_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_collection:node/20.
-  $menu_links['user-menu_collection:node/20'] = array(
+  // Exported menu link: user-menu_collection:uuid/node/accbfa25-ab35-401f-87eb-50f90a351255.
+  $menu_links['user-menu_collection:uuid/node/accbfa25-ab35-401f-87eb-50f90a351255'] = array(
     'menu_name' => 'user-menu',
-    'link_path' => 'node/20',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/accbfa25-ab35-401f-87eb-50f90a351255',
+    'router_path' => 'uuid',
     'link_title' => 'Collection',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'user-menu_collection:node/20',
+      'identifier' => 'user-menu_collection:uuid/node/accbfa25-ab35-401f-87eb-50f90a351255',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -67,17 +67,17 @@ function saic_platform_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_help:islandora.
-  $menu_links['user-menu_help:islandora'] = array(
+  // Exported menu link: user-menu_help:uuid/node/5fdba21b-8a92-49bc-a97e-c10eb594c92a.
+  $menu_links['user-menu_help:uuid/node/5fdba21b-8a92-49bc-a97e-c10eb594c92a'] = array(
     'menu_name' => 'user-menu',
-    'link_path' => 'islandora',
-    'router_path' => 'islandora',
+    'link_path' => 'uuid/node/5fdba21b-8a92-49bc-a97e-c10eb594c92a',
+    'router_path' => 'uuid',
     'link_title' => 'Help',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'user-menu_help:islandora',
+      'identifier' => 'user-menu_help:uuid/node/5fdba21b-8a92-49bc-a97e-c10eb594c92a',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -124,17 +124,17 @@ function saic_platform_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_research:node/22.
-  $menu_links['user-menu_research:node/22'] = array(
+  // Exported menu link: user-menu_research:uuid/node/8c9a1d3c-b1e4-41a1-b1e7-f8391353d90b.
+  $menu_links['user-menu_research:uuid/node/8c9a1d3c-b1e4-41a1-b1e7-f8391353d90b'] = array(
     'menu_name' => 'user-menu',
-    'link_path' => 'node/22',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/8c9a1d3c-b1e4-41a1-b1e7-f8391353d90b',
+    'router_path' => 'uuid',
     'link_title' => 'Research',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'user-menu_research:node/22',
+      'identifier' => 'user-menu_research:uuid/node/8c9a1d3c-b1e4-41a1-b1e7-f8391353d90b',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -144,17 +144,17 @@ function saic_platform_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_submit-content:node/21.
-  $menu_links['user-menu_submit-content:node/21'] = array(
+  // Exported menu link: user-menu_submit-content:uuid/node/4c2f685a-c41d-47b6-8923-371fa6d93d40.
+  $menu_links['user-menu_submit-content:uuid/node/4c2f685a-c41d-47b6-8923-371fa6d93d40'] = array(
     'menu_name' => 'user-menu',
-    'link_path' => 'node/21',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/4c2f685a-c41d-47b6-8923-371fa6d93d40',
+    'router_path' => 'uuid',
     'link_title' => 'Submit Content',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'user-menu_submit-content:node/21',
+      'identifier' => 'user-menu_submit-content:uuid/node/4c2f685a-c41d-47b6-8923-371fa6d93d40',
     ),
     'module' => 'menu',
     'hidden' => 0,
