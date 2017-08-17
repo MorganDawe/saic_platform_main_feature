@@ -164,6 +164,7 @@ features[variable][] = islandora_collection_search_gsearch_endpoint
 features[variable][] = islandora_collection_search_gsearch_user
 features[variable][] = islandora_collection_search_retain_search_values
 features[variable][] = islandora_collection_search_searchable_collections
+features[variable][] = islandora_imagecache_cache_solr_backend_display
 features[variable][] = node_admin_theme
 features[variable][] = node_export_file_supported_fields
 features[variable][] = node_export_reset_changed_image_block

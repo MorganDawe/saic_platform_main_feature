@@ -244,6 +244,13 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_imagecache_cache_solr_backend_display';
+  $strongarm->value = 1;
+  $export['islandora_imagecache_cache_solr_backend_display'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_admin_theme';
   $strongarm->value = 1;
   $export['node_admin_theme'] = $strongarm;
