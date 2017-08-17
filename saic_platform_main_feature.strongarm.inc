@@ -79,10 +79,10 @@ function saic_platform_main_feature_strongarm() {
   $strongarm->name = 'blockify_blocks';
   $strongarm->value = array(
     'blockify-logo' => 'blockify-logo',
+    'blockify-page-title' => 'blockify-page-title',
     'blockify-breadcrumb' => 'blockify-breadcrumb',
     'blockify-site-name' => 0,
     'blockify-site-slogan' => 0,
-    'blockify-page-title' => 0,
     'blockify-tabs' => 0,
     'blockify-messages' => 0,
     'blockify-actions' => 0,
@@ -440,21 +440,21 @@ function saic_platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Islandora OnDemand';
+  $strongarm->value = 'SAIC Digital Collections';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Managing Digital Content';
+  $strongarm->value = '';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_default';
-  $strongarm->value = 'ir7_saas';
+  $strongarm->value = 'saic_theme';
   $export['theme_default'] = $strongarm;
 
   $strongarm = new stdClass();

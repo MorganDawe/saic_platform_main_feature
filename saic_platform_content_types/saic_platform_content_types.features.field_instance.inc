@@ -10,7 +10,7 @@
 function saic_platform_content_types_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-image_block-body'
+  // Exported field_instance: 'node-image_block-body'.
   $field_instances['node-image_block-body'] = array(
     'bundle' => 'image_block',
     'default_value' => NULL,
@@ -54,7 +54,7 @@ function saic_platform_content_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-image_block-field_image_block'
+  // Exported field_instance: 'node-image_block-field_image_block'.
   $field_instances['node-image_block-field_image_block'] = array(
     'bundle' => 'image_block',
     'deleted' => 0,
@@ -87,6 +87,15 @@ function saic_platform_content_types_field_default_field_instances() {
       'default_image' => 0,
       'file_directory' => '',
       'file_extensions' => 'png gif jpg jpeg',
+      'image_field_caption' => array(
+        'enabled' => 0,
+      ),
+      'image_field_caption_wrapper' => array(
+        'image_field_caption_default' => array(
+          'format' => 'filtered_html',
+          'value' => '',
+        ),
+      ),
       'max_filesize' => '',
       'max_resolution' => '',
       'min_resolution' => '',
@@ -105,7 +114,7 @@ function saic_platform_content_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-page-body'
+  // Exported field_instance: 'node-page-body'.
   $field_instances['node-page-body'] = array(
     'bundle' => 'page',
     'default_value' => NULL,

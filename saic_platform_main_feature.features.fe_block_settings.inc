@@ -24,16 +24,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
       'anonymous user' => 1,
     ),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -26,
       ),
       'seven' => array(
@@ -41,6 +35,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -26,
       ),
     ),
     'title' => '<none>',
@@ -59,16 +59,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
       'authenticated user' => 2,
     ),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -27,
       ),
       'seven' => array(
@@ -77,9 +71,114 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'zen' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -27,
+      ),
     ),
     'title' => '<none>',
     'visibility' => 1,
+  );
+
+  $export['blockify-blockify-breadcrumb'] = array(
+    'cache' => 4,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'blockify-breadcrumb',
+    'module' => 'blockify',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saic_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['blockify-blockify-logo'] = array(
+    'cache' => 8,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'blockify-logo',
+    'module' => 'blockify',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saic_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['blockify-blockify-page-title'] = array(
+    'cache' => 4,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'blockify-page-title',
+    'module' => 'blockify',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => 'highlighted',
+        'status' => 1,
+        'theme' => 'saic_theme',
+        'weight' => -43,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['comment-recent'] = array(
@@ -92,22 +191,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => 'dashboard_inactive',
         'status' => 1,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -125,16 +224,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'content',
+      'saic_theme' => array(
+        'region' => 'sub_content',
         'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -28,
       ),
       'seven' => array(
@@ -143,8 +236,47 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'zen' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -28,
+      ),
     ),
-    'title' => 'Bookmark',
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['islandora_collection_search-islandora_collection_search'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'islandora_collection_search',
+    'module' => 'islandora_collection_search',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => 'navigation',
+        'status' => 1,
+        'theme' => 'saic_theme',
+        'weight' => -41,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -158,16 +290,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => 'islandora/object/*',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
+      'saic_theme' => array(
         'region' => 'sidebar_second',
         'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -32,
       ),
       'seven' => array(
@@ -175,6 +301,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -32,
       ),
     ),
     'title' => '',
@@ -191,23 +323,23 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => 'advanced-search',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
+      'saic_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'ir7_saas',
-        'weight' => -24,
+        'theme' => 'saic_theme',
+        'weight' => -34,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -24,
       ),
     ),
     'title' => '<none>',
@@ -224,16 +356,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
+      'saic_theme' => array(
         'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -33,
       ),
       'seven' => array(
@@ -242,8 +368,14 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'zen' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -33,
+      ),
     ),
-    'title' => 'Facets',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -257,16 +389,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -18,
       ),
       'seven' => array(
@@ -274,6 +400,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => -18,
       ),
     ),
     'title' => '',
@@ -290,22 +422,55 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -33,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -33,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['islandora_solr-islandora_solr_display_manager'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'islandora_solr_display_manager',
+    'module' => 'islandora_solr',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => 'highlighted',
+        'status' => 1,
+        'theme' => 'saic_theme',
+        'weight' => -41,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -323,16 +488,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -30,
       ),
       'seven' => array(
@@ -340,6 +499,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -30,
       ),
     ),
     'title' => '<none>',
@@ -356,16 +521,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -17,
       ),
       'seven' => array(
@@ -373,6 +532,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => -17,
       ),
     ),
     'title' => 'Sort',
@@ -389,16 +554,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
+      'saic_theme' => array(
         'region' => 'header',
         'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -31,
       ),
       'seven' => array(
@@ -406,6 +565,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'header',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -31,
       ),
     ),
     'title' => '',
@@ -422,16 +587,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -19,
       ),
       'seven' => array(
@@ -439,6 +598,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -19,
       ),
     ),
     'title' => '<none>',
@@ -455,16 +620,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'header',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -32,
       ),
       'seven' => array(
@@ -472,6 +631,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => -32,
       ),
     ),
     'title' => '<none>',
@@ -488,16 +653,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -505,6 +664,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 1,
         'theme' => 'seven',
         'weight' => 10,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -521,16 +686,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -539,8 +698,146 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
     ),
     'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['quicktabs-promoted_tabs'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'promoted_tabs',
+    'module' => 'quicktabs',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'saic_theme',
+        'weight' => -36,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['saicdora-saicdora_metadata_description'] = array(
+    'cache' => 1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'saicdora_metadata_description',
+    'module' => 'saicdora',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => 'highlighted',
+        'status' => 1,
+        'theme' => 'saic_theme',
+        'weight' => -42,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['saicdora-saicdora_metadata_markup'] = array(
+    'cache' => 1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'saicdora_metadata_markup',
+    'module' => 'saicdora',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'saic_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
+  $export['saicdora-saicdora_usage_stats'] = array(
+    'cache' => 1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'saicdora_usage_stats',
+    'module' => 'saicdora',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => 'sub_content',
+        'status' => 1,
+        'theme' => 'saic_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -554,16 +851,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => -1,
-      ),
-      'ir7_saas' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -1,
       ),
       'seven' => array(
@@ -571,6 +862,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 1,
         'theme' => 'seven',
         'weight' => -10,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => -1,
       ),
     ),
     'title' => '',
@@ -587,22 +884,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -620,22 +917,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => 'help',
         'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'help',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => 'help',
         'status' => 1,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'help',
+        'status' => 1,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -653,23 +950,23 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
-        'weight' => -29,
+        'theme' => 'saic_theme',
+        'weight' => -35,
       ),
       'seven' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -29,
       ),
     ),
     'title' => '',
@@ -686,22 +983,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -719,22 +1016,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -752,22 +1049,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -785,16 +1082,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 10,
-      ),
-      'ir7_saas' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -20,
       ),
       'seven' => array(
@@ -802,6 +1093,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 10,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => -20,
       ),
     ),
     'title' => '',
@@ -818,22 +1115,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -851,16 +1148,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -19,
       ),
       'seven' => array(
@@ -868,6 +1159,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 1,
         'theme' => 'seven',
         'weight' => 10,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => -19,
       ),
     ),
     'title' => '',
@@ -884,22 +1181,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => 'dashboard_sidebar',
         'status' => 1,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -917,22 +1214,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => 'dashboard_inactive',
         'status' => 1,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -950,22 +1247,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -983,22 +1280,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -1016,22 +1313,55 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-collection_description-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'collection_description-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saic_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -1049,16 +1379,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -32,
       ),
       'seven' => array(
@@ -1067,9 +1391,48 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'zen' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -32,
+      ),
     ),
     'title' => '<none>',
     'visibility' => 1,
+  );
+
+  $export['views-frontpage_solr_boxes-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'frontpage_solr_boxes-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saic_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['views-frontpage_solr_boxes-block_1'] = array(
@@ -1082,16 +1445,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -25,
       ),
       'seven' => array(
@@ -1099,6 +1456,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -25,
       ),
     ),
     'title' => '',
@@ -1115,16 +1478,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -11,
       ),
       'seven' => array(
@@ -1132,6 +1489,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => -11,
       ),
     ),
     'title' => '<none>',
@@ -1148,16 +1511,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
+      'saic_theme' => array(
         'region' => 'footer',
         'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -20,
       ),
       'seven' => array(
@@ -1165,6 +1522,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -20,
       ),
     ),
     'title' => '<none>',
@@ -1181,16 +1544,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => -31,
       ),
       'seven' => array(
@@ -1198,6 +1555,12 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'zen',
+        'weight' => -31,
       ),
     ),
     'title' => '<none>',
@@ -1214,16 +1577,10 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1232,9 +1589,213 @@ function saic_platform_main_feature_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
     ),
     'title' => '',
     'visibility' => 0,
+  );
+
+  $export['views-promoted_tab_view-block'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'promoted_tab_view-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saic_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-promoted_tab_view-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'promoted_tab_view-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saic_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-promoted_tab_view-block_2'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'promoted_tab_view-block_2',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saic_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-promoted_tab_view-block_3'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'promoted_tab_view-block_3',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saic_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-promoted_tab_view-block_4'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'promoted_tab_view-block_4',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'saic_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-slideshow_galleria-block'] = array(
+    'cache' => -1,
+    'css_class' => 'view-slideshow-galleria-block slideshow',
+    'custom' => 0,
+    'delta' => 'slideshow_galleria-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'saic_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'saic_theme',
+        'weight' => -37,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
   $export['widgets-s_addthis-share'] = array(
@@ -1247,22 +1808,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -1280,22 +1841,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -1313,22 +1874,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -1346,22 +1907,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -1379,22 +1940,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -1412,22 +1973,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),
@@ -1445,22 +2006,22 @@ function saic_platform_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'saic_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ir7_saas' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ir7_saas',
+        'theme' => 'saic_theme',
         'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'zen' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'zen',
         'weight' => 0,
       ),
     ),

@@ -18,6 +18,7 @@ features[field_instance][] = node-image_block-field_image_block
 features[field_instance][] = node-page-body
 features[menu_custom][] = menu-footer-menu
 features[menu_custom][] = menu-header-menu
+features[menu_custom][] = user-menu
 features[node][] = image_block
 features[node][] = page
 features[variable][] = comment_anonymous_image_block
