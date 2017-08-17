@@ -114,6 +114,62 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'file_private_path';
+  $strongarm->value = 'sites/default/files/private';
+  $export['file_private_path'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'file_public_path';
+  $strongarm->value = 'sites/default/files';
+  $export['file_public_path'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_basic_collection_display_backend';
+  $strongarm->value = 'islandora_solr_query_backend';
+  $export['islandora_basic_collection_display_backend'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_create_user_default_lists';
+  $strongarm->value = 1;
+  $export['islandora_bookmark_create_user_default_lists'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_default_list_name';
+  $strongarm->value = '@username\'s Default List';
+  $export['islandora_bookmark_default_list_name'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_default_list_view';
+  $strongarm->value = 'manage';
+  $export['islandora_bookmark_default_list_view'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_detailed_page_elements';
+  $strongarm->value = '10';
+  $export['islandora_bookmark_detailed_page_elements'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_bookmark_share_default_list';
+  $strongarm->value = 1;
+  $export['islandora_bookmark_share_default_list'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_admin_theme';
   $strongarm->value = 1;
   $export['node_admin_theme'] = $strongarm;
@@ -142,9 +198,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_add_class_active_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 0;
+  $export['owlcarousel_add_class_active_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_auto_height_owlcarousel_settings_default';
   $strongarm->value = 0;
   $export['owlcarousel_auto_height_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_auto_height_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 0;
+  $export['owlcarousel_auto_height_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -156,6 +226,13 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_auto_play_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = '';
+  $export['owlcarousel_auto_play_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_base_class_owlcarousel_settings_default';
   $strongarm->value = 'owl-carousel';
   $export['owlcarousel_base_class_owlcarousel_settings_default'] = $strongarm;
@@ -163,9 +240,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_base_class_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 'owl-carousel';
+  $export['owlcarousel_base_class_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_drag_before_anim_finish_owlcarousel_settings_default';
   $strongarm->value = 1;
   $export['owlcarousel_drag_before_anim_finish_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_drag_before_anim_finish_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 1;
+  $export['owlcarousel_drag_before_anim_finish_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -184,6 +275,20 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_desktop_owlcarousel_settings_promoted-tabs_items';
+  $strongarm->value = '2';
+  $export['owlcarousel_items_desktop_owlcarousel_settings_promoted-tabs_items'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_desktop_owlcarousel_settings_promoted-tabs_width';
+  $strongarm->value = '1199';
+  $export['owlcarousel_items_desktop_owlcarousel_settings_promoted-tabs_width'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_items_desktop_small_owlcarousel_settings_default_items';
   $strongarm->value = '1';
   $export['owlcarousel_items_desktop_small_owlcarousel_settings_default_items'] = $strongarm;
@@ -194,6 +299,20 @@ function saic_platform_main_feature_strongarm() {
   $strongarm->name = 'owlcarousel_items_desktop_small_owlcarousel_settings_default_width';
   $strongarm->value = '979';
   $export['owlcarousel_items_desktop_small_owlcarousel_settings_default_width'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_desktop_small_owlcarousel_settings_promoted-tabs_items';
+  $strongarm->value = '2';
+  $export['owlcarousel_items_desktop_small_owlcarousel_settings_promoted-tabs_items'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_desktop_small_owlcarousel_settings_promoted-tabs_width';
+  $strongarm->value = '979';
+  $export['owlcarousel_items_desktop_small_owlcarousel_settings_promoted-tabs_width'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -212,6 +331,20 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_mobile_owlcarousel_settings_promoted-tabs_items';
+  $strongarm->value = '1';
+  $export['owlcarousel_items_mobile_owlcarousel_settings_promoted-tabs_items'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_mobile_owlcarousel_settings_promoted-tabs_width';
+  $strongarm->value = '479';
+  $export['owlcarousel_items_mobile_owlcarousel_settings_promoted-tabs_width'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_items_owlcarousel_settings_default';
   $strongarm->value = '1';
   $export['owlcarousel_items_owlcarousel_settings_default'] = $strongarm;
@@ -219,9 +352,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = '2';
+  $export['owlcarousel_items_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_items_scale_up_owlcarousel_settings_default';
   $strongarm->value = 0;
   $export['owlcarousel_items_scale_up_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_scale_up_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 0;
+  $export['owlcarousel_items_scale_up_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -240,6 +387,20 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_tablet_owlcarousel_settings_promoted-tabs_items';
+  $strongarm->value = '1';
+  $export['owlcarousel_items_tablet_owlcarousel_settings_promoted-tabs_items'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_tablet_owlcarousel_settings_promoted-tabs_width';
+  $strongarm->value = '768';
+  $export['owlcarousel_items_tablet_owlcarousel_settings_promoted-tabs_width'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_items_tablet_small_owlcarousel_settings_default_items';
   $strongarm->value = '1';
   $export['owlcarousel_items_tablet_small_owlcarousel_settings_default_items'] = $strongarm;
@@ -254,9 +415,30 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_tablet_small_owlcarousel_settings_promoted-tabs_items';
+  $strongarm->value = '1';
+  $export['owlcarousel_items_tablet_small_owlcarousel_settings_promoted-tabs_items'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_items_tablet_small_owlcarousel_settings_promoted-tabs_width';
+  $strongarm->value = '0';
+  $export['owlcarousel_items_tablet_small_owlcarousel_settings_promoted-tabs_width'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_json_path_owlcarousel_settings_default';
   $strongarm->value = '';
   $export['owlcarousel_json_path_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_json_path_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = '';
+  $export['owlcarousel_json_path_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -268,9 +450,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_json_success_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = '';
+  $export['owlcarousel_json_success_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_lazy_effect_owlcarousel_settings_default';
   $strongarm->value = 'fadeIn';
   $export['owlcarousel_lazy_effect_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_lazy_effect_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 'fadeIn';
+  $export['owlcarousel_lazy_effect_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -282,9 +478,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_lazy_follow_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 1;
+  $export['owlcarousel_lazy_follow_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_lazy_load_owlcarousel_settings_default';
   $strongarm->value = 1;
   $export['owlcarousel_lazy_load_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_lazy_load_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 0;
+  $export['owlcarousel_lazy_load_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -296,9 +506,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_mouse_drag_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 1;
+  $export['owlcarousel_mouse_drag_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_navigation_owlcarousel_settings_default';
   $strongarm->value = 1;
   $export['owlcarousel_navigation_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_navigation_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 1;
+  $export['owlcarousel_navigation_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -313,9 +537,26 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_navigation_text_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = array(
+    0 => '<span class="promoted-prev"><i class="icon-left" title="Previous"></i></span>',
+    1 => '<span class="promoted-next"><i class="icon-right" title="<next"></i></span>',
+  );
+  $export['owlcarousel_navigation_text_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_override_ajax_pagination_owlcarousel_settings_default';
   $strongarm->value = 0;
   $export['owlcarousel_override_ajax_pagination_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_override_ajax_pagination_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 0;
+  $export['owlcarousel_override_ajax_pagination_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -327,9 +568,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_pagination_numbers_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 0;
+  $export['owlcarousel_pagination_numbers_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_pagination_owlcarousel_settings_default';
   $strongarm->value = 1;
   $export['owlcarousel_pagination_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_pagination_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 1;
+  $export['owlcarousel_pagination_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -341,9 +596,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_pagination_speed_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = '800';
+  $export['owlcarousel_pagination_speed_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_responsive_base_width_owlcarousel_settings_default';
   $strongarm->value = 'window';
   $export['owlcarousel_responsive_base_width_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_responsive_base_width_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 'window';
+  $export['owlcarousel_responsive_base_width_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -355,9 +624,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_responsive_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 1;
+  $export['owlcarousel_responsive_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_responsive_refresh_rate_owlcarousel_settings_default';
   $strongarm->value = '100';
   $export['owlcarousel_responsive_refresh_rate_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_responsive_refresh_rate_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = '200';
+  $export['owlcarousel_responsive_refresh_rate_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -369,9 +652,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_rewind_nav_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 1;
+  $export['owlcarousel_rewind_nav_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_rewind_speed_owlcarousel_settings_default';
   $strongarm->value = '1000';
   $export['owlcarousel_rewind_speed_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_rewind_speed_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = '1000';
+  $export['owlcarousel_rewind_speed_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -383,9 +680,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_scroll_per_page_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 0;
+  $export['owlcarousel_scroll_per_page_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_settings_default';
   $strongarm->value = 'owlcarousel_default';
   $export['owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 'Promoted Tabs';
+  $export['owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -397,9 +708,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_single_item_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 0;
+  $export['owlcarousel_single_item_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_slide_speed_owlcarousel_settings_default';
   $strongarm->value = '200';
   $export['owlcarousel_slide_speed_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_slide_speed_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = '200';
+  $export['owlcarousel_slide_speed_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -411,9 +736,23 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_stop_on_hover_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 0;
+  $export['owlcarousel_stop_on_hover_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_theme_owlcarousel_settings_default';
   $strongarm->value = 'owl-theme';
   $export['owlcarousel_theme_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_theme_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 'owl-theme';
+  $export['owlcarousel_theme_owlcarousel_settings_promoted-tabs'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -425,9 +764,118 @@ function saic_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_touch_drag_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = 1;
+  $export['owlcarousel_touch_drag_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'owlcarousel_transition_style_owlcarousel_settings_default';
   $strongarm->value = 'goDown';
   $export['owlcarousel_transition_style_owlcarousel_settings_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'owlcarousel_transition_style_owlcarousel_settings_promoted-tabs';
+  $strongarm->value = '';
+  $export['owlcarousel_transition_style_owlcarousel_settings_promoted-tabs'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_ignore_admin';
+  $strongarm->value = array(
+    1 => '1',
+  );
+  $export['responsive_menus_ignore_admin'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_no_jquery_update';
+  $strongarm->value = array(
+    1 => 0,
+  );
+  $export['responsive_menus_no_jquery_update'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_sidr_animation_speed';
+  $strongarm->value = '200';
+  $export['responsive_menus_sidr_animation_speed'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_sidr_css_selectors';
+  $strongarm->value = 'nav.main-menu';
+  $export['responsive_menus_sidr_css_selectors'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_sidr_displace';
+  $strongarm->value = '1';
+  $export['responsive_menus_sidr_displace'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_sidr_media_size';
+  $strongarm->value = '768';
+  $export['responsive_menus_sidr_media_size'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_sidr_menu_side';
+  $strongarm->value = 'left';
+  $export['responsive_menus_sidr_menu_side'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_sidr_menu_theme';
+  $strongarm->value = 'dark';
+  $export['responsive_menus_sidr_menu_theme'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_sidr_on_close';
+  $strongarm->value = '';
+  $export['responsive_menus_sidr_on_close'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_sidr_on_open';
+  $strongarm->value = '';
+  $export['responsive_menus_sidr_on_open'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_sidr_renaming';
+  $strongarm->value = '1';
+  $export['responsive_menus_sidr_renaming'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_sidr_trigger_txt';
+  $strongarm->value = '<i class="icon-menu" title="Facebook"></i>Main Menu';
+  $export['responsive_menus_sidr_trigger_txt'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'responsive_menus_style';
+  $strongarm->value = 'sidr';
+  $export['responsive_menus_style'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -499,6 +947,45 @@ function saic_platform_main_feature_strongarm() {
     ),
   );
   $export['theme_ir7_saas_settings'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_saic_theme_settings';
+  $strongarm->value = array(
+    'toggle_logo' => 1,
+    'toggle_name' => 1,
+    'toggle_slogan' => 1,
+    'toggle_node_user_picture' => 1,
+    'toggle_comment_user_picture' => 1,
+    'toggle_favicon' => 1,
+    'toggle_main_menu' => 1,
+    'toggle_secondary_menu' => 1,
+    'default_logo' => 1,
+    'logo_path' => '',
+    'logo_upload' => '',
+    'default_favicon' => 1,
+    'favicon_path' => '',
+    'favicon_upload' => '',
+    'zen_breadcrumb' => 'yes',
+    'zen_breadcrumb_separator' => ' / ',
+    'zen_breadcrumb_home' => 1,
+    'zen_breadcrumb_trailing' => 0,
+    'zen_breadcrumb_title' => 1,
+    'zen_skip_link_anchor' => 'main-menu',
+    'zen_skip_link_text' => 'Jump to navigation',
+    'zen_meta' => array(
+      'html5' => 'html5',
+      'meta' => 'meta',
+    ),
+    'zen_rebuild_registry' => 1,
+    'saic_facebook_link' => 'http://www.facebook.com/saic.events#act',
+    'saic_twitter_link' => 'https://twitter.com/saic_news#act',
+    'saic_youtube_link' => 'https://www.youtube.com/c/schooloftheartinstituteofchicagosaic#act',
+    'saic_vimeo_link' => 'https://vimeo.com/theschoolofart#act',
+    'saic_instagram_link' => 'http://instagram.com/saicpics##act',
+  );
+  $export['theme_saic_theme_settings'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
