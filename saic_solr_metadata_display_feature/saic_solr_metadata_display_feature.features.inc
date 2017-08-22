@@ -1224,9 +1224,17 @@ function saic_solr_metadata_display_feature_islandora_solr_metadata_configuratio
       ),
     ),
     'description' => array(
-      'description_field' => NULL,
-      'description_label' => NULL,
-      'description_data' => NULL,
+      'description_field' => 'mods_abstract_ms',
+      'description_label' => '<none>',
+      'description_data' => array(
+        'truncation' => array(
+          'truncation_type' => 'separate_value_option',
+          'max_length' => 0,
+          'word_safe' => 0,
+          'ellipsis' => 0,
+          'min_wordsafe_length' => 1,
+        ),
+      ),
     ),
     'name' => 'SAIC Metadata Display',
   ),
