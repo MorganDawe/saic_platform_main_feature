@@ -327,9 +327,35 @@ function saic_solr_config_feature_islandora_solr_fields_features_default_fields(
     ),
   ),
   23 => array(
+    'solr_field' => 'mods_physicalDescription_note_visual_analysis_mt',
+    'field_type' => 'search_fields',
+    'weight' => -10,
+    'solr_field_settings' => array(
+      'label' => 'Visual Analysis',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  24 => array(
+    'solr_field' => 'mods_genre_movement_mt',
+    'field_type' => 'search_fields',
+    'weight' => -9,
+    'solr_field_settings' => array(
+      'label' => 'Movement/Genre',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  25 => array(
     'solr_field' => 'mods_identifier_accession_ms',
     'field_type' => 'result_fields',
-    'weight' => -10,
+    'weight' => -9,
     'solr_field_settings' => array(
       'label' => 'Accession Number',
       'snippet' => NULL,
@@ -348,10 +374,49 @@ function saic_solr_config_feature_islandora_solr_fields_features_default_fields(
       'link_to_search' => FALSE,
     ),
   ),
-  24 => array(
-    'solr_field' => 'mods_originInfo_dateIssued_ms',
+  26 => array(
+    'solr_field' => 'mods_originInfo_encoding_w3cdtf_keyDate_yes_dateIssued_dt',
+    'field_type' => 'sort_fields',
+    'weight' => -9,
+    'solr_field_settings' => array(
+      'label' => 'Publication Date',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  27 => array(
+    'solr_field' => 'mods_titleInfo_title_ss',
+    'field_type' => 'sort_fields',
+    'weight' => -8,
+    'solr_field_settings' => array(
+      'label' => 'Title',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  28 => array(
+    'solr_field' => 'mods_genre_literary-format_mt',
+    'field_type' => 'search_fields',
+    'weight' => -8,
+    'solr_field_settings' => array(
+      'label' => 'Literary Format',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  29 => array(
+    'solr_field' => 'mods_originInfo_encoding_w3cdtf_keyDate_yes_dateIssued_ms',
     'field_type' => 'result_fields',
-    'weight' => -10,
+    'weight' => -8,
     'solr_field_settings' => array(
       'label' => 'Date',
       'snippet' => NULL,
@@ -370,10 +435,23 @@ function saic_solr_config_feature_islandora_solr_fields_features_default_fields(
       'link_to_search' => FALSE,
     ),
   ),
-  25 => array(
+  30 => array(
+    'solr_field' => 'fgs_createdDate_dt',
+    'field_type' => 'sort_fields',
+    'weight' => -7,
+    'solr_field_settings' => array(
+      'label' => 'Date Added',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  31 => array(
     'solr_field' => 'mods_name_conference_namePart_ms',
     'field_type' => 'result_fields',
-    'weight' => -10,
+    'weight' => -7,
     'solr_field_settings' => array(
       'label' => 'Event',
       'snippet' => NULL,
@@ -392,10 +470,23 @@ function saic_solr_config_feature_islandora_solr_fields_features_default_fields(
       'link_to_search' => FALSE,
     ),
   ),
-  26 => array(
+  32 => array(
+    'solr_field' => 'mods_physicalDescription_form_production_format_mt',
+    'field_type' => 'search_fields',
+    'weight' => -7,
+    'solr_field_settings' => array(
+      'label' => 'Production Format',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  33 => array(
     'solr_field' => 'mods_name_personal_author_namePart_ms',
     'field_type' => 'result_fields',
-    'weight' => -10,
+    'weight' => -6,
     'solr_field_settings' => array(
       'label' => 'Author',
       'snippet' => NULL,
@@ -414,10 +505,36 @@ function saic_solr_config_feature_islandora_solr_fields_features_default_fields(
       'link_to_search' => FALSE,
     ),
   ),
-  27 => array(
+  34 => array(
+    'solr_field' => 'mods_physicalDescription_form_materials_mt',
+    'field_type' => 'search_fields',
+    'weight' => -6,
+    'solr_field_settings' => array(
+      'label' => 'Materials',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  35 => array(
+    'solr_field' => 'mods_genre_object-category_mt',
+    'field_type' => 'search_fields',
+    'weight' => -5,
+    'solr_field_settings' => array(
+      'label' => 'Object Category',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  36 => array(
     'solr_field' => 'mods_name_personal_creator_namePart_ms',
     'field_type' => 'result_fields',
-    'weight' => -10,
+    'weight' => -5,
     'solr_field_settings' => array(
       'label' => 'Creator',
       'snippet' => NULL,
@@ -436,10 +553,10 @@ function saic_solr_config_feature_islandora_solr_fields_features_default_fields(
       'link_to_search' => FALSE,
     ),
   ),
-  28 => array(
+  37 => array(
     'solr_field' => 'mods_name_corporate_creator_namePart_ms',
     'field_type' => 'result_fields',
-    'weight' => -10,
+    'weight' => -4,
     'solr_field_settings' => array(
       'label' => 'Authoring Agent',
       'snippet' => NULL,
@@ -458,10 +575,23 @@ function saic_solr_config_feature_islandora_solr_fields_features_default_fields(
       'link_to_search' => FALSE,
     ),
   ),
-  29 => array(
+  38 => array(
+    'solr_field' => 'mods_originInfo_place_placeTerm_text_mt',
+    'field_type' => 'search_fields',
+    'weight' => -4,
+    'solr_field_settings' => array(
+      'label' => 'Country of Origin',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  39 => array(
     'solr_field' => 'mods_name_personal_contributor_namePart_ms',
     'field_type' => 'result_fields',
-    'weight' => -10,
+    'weight' => -3,
     'solr_field_settings' => array(
       'label' => 'Contributors',
       'snippet' => NULL,
@@ -480,12 +610,12 @@ function saic_solr_config_feature_islandora_solr_fields_features_default_fields(
       'link_to_search' => FALSE,
     ),
   ),
-  30 => array(
-    'solr_field' => 'mods_physicalDescription_note_visual_analysis_mt',
+  40 => array(
+    'solr_field' => 'mods_originInfo_eventType_manufacture_place_placeTerm_text_mt',
     'field_type' => 'search_fields',
-    'weight' => -10,
+    'weight' => -3,
     'solr_field_settings' => array(
-      'label' => 'Visual Analysis',
+      'label' => 'Place of Manufacture',
       'permissions' => array(
         1 => 1,
         2 => 2,
@@ -493,10 +623,23 @@ function saic_solr_config_feature_islandora_solr_fields_features_default_fields(
       ),
     ),
   ),
-  31 => array(
+  41 => array(
+    'solr_field' => 'saic_mods_genre_no_type_mt',
+    'field_type' => 'search_fields',
+    'weight' => -2,
+    'solr_field_settings' => array(
+      'label' => 'Object Type',
+      'permissions' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+      ),
+    ),
+  ),
+  42 => array(
     'solr_field' => 'mods_location_holdingSimple_copyInformation_shelfLocator_ms',
     'field_type' => 'result_fields',
-    'weight' => -10,
+    'weight' => -2,
     'solr_field_settings' => array(
       'label' => 'Location',
       'snippet' => NULL,
@@ -513,149 +656,6 @@ function saic_solr_config_feature_islandora_solr_fields_features_default_fields(
       ),
       'link_to_object' => FALSE,
       'link_to_search' => FALSE,
-    ),
-  ),
-  32 => array(
-    'solr_field' => 'mods_genre_movement_mt',
-    'field_type' => 'search_fields',
-    'weight' => -9,
-    'solr_field_settings' => array(
-      'label' => 'Movement/Genre',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  33 => array(
-    'solr_field' => 'mods_originInfo_encoding_w3cdtf_keyDate_yes_dateIssued_dt',
-    'field_type' => 'sort_fields',
-    'weight' => -9,
-    'solr_field_settings' => array(
-      'label' => 'Publication Date',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  34 => array(
-    'solr_field' => 'mods_titleInfo_title_ss',
-    'field_type' => 'sort_fields',
-    'weight' => -8,
-    'solr_field_settings' => array(
-      'label' => 'Title',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  35 => array(
-    'solr_field' => 'mods_genre_literary-format_mt',
-    'field_type' => 'search_fields',
-    'weight' => -8,
-    'solr_field_settings' => array(
-      'label' => 'Literary Format',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  36 => array(
-    'solr_field' => 'fgs_createdDate_dt',
-    'field_type' => 'sort_fields',
-    'weight' => -7,
-    'solr_field_settings' => array(
-      'label' => 'Date Added',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  37 => array(
-    'solr_field' => 'mods_physicalDescription_form_production_format_mt',
-    'field_type' => 'search_fields',
-    'weight' => -7,
-    'solr_field_settings' => array(
-      'label' => 'Production Format',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  38 => array(
-    'solr_field' => 'mods_physicalDescription_form_materials_mt',
-    'field_type' => 'search_fields',
-    'weight' => -6,
-    'solr_field_settings' => array(
-      'label' => 'Materials',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  39 => array(
-    'solr_field' => 'mods_genre_object-category_mt',
-    'field_type' => 'search_fields',
-    'weight' => -5,
-    'solr_field_settings' => array(
-      'label' => 'Object Category',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  40 => array(
-    'solr_field' => 'mods_originInfo_place_placeTerm_text_mt',
-    'field_type' => 'search_fields',
-    'weight' => -4,
-    'solr_field_settings' => array(
-      'label' => 'Country of Origin',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  41 => array(
-    'solr_field' => 'mods_originInfo_eventType_manufacture_place_placeTerm_text_mt',
-    'field_type' => 'search_fields',
-    'weight' => -3,
-    'solr_field_settings' => array(
-      'label' => 'Place of Manufacture',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
-    ),
-  ),
-  42 => array(
-    'solr_field' => 'saic_mods_genre_no_type_mt',
-    'field_type' => 'search_fields',
-    'weight' => -2,
-    'solr_field_settings' => array(
-      'label' => 'Object Type',
-      'permissions' => array(
-        1 => 1,
-        2 => 2,
-        3 => 3,
-      ),
     ),
   ),
   43 => array(
