@@ -1207,9 +1207,6 @@ function saic_solr_metadata_display_feature_islandora_solr_metadata_configuratio
       'islandora:binaryObjectCModel' => array(
         'cmodel' => 'islandora:binaryObjectCModel',
       ),
-      'islandora:collectionCModel' => array(
-        'cmodel' => 'islandora:collectionCModel',
-      ),
       'islandora:sp_large_image_cmodel' => array(
         'cmodel' => 'islandora:sp_large_image_cmodel',
       ),
@@ -1229,6 +1226,24 @@ function saic_solr_metadata_display_feature_islandora_solr_metadata_configuratio
       'description_data' => NULL,
     ),
     'name' => 'SAIC Metadata Display',
+  ),
+  'saic_metadata_display_collections' => array(
+    'fields' => array(),
+    'cmodels' => array(),
+    'description' => array(
+      'description_field' => 'mods_abstract_ms',
+      'description_label' => '<none>',
+      'description_data' => array(
+        'truncation' => array(
+          'truncation_type' => 'separate_value_option',
+          'max_length' => 0,
+          'word_safe' => 0,
+          'ellipsis' => 0,
+          'min_wordsafe_length' => 1,
+        ),
+      ),
+    ),
+    'name' => 'SAIC Metadata Display (Collections)',
   ),
 );
 }
