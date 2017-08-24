@@ -1229,7 +1229,11 @@ function saic_solr_metadata_display_feature_islandora_solr_metadata_configuratio
   ),
   'saic_metadata_display_collections' => array(
     'fields' => array(),
-    'cmodels' => array(),
+    'cmodels' => array(
+        'islandora:collectionCModel' => array(
+          'cmodel' => 'islandora:collectionCModel',
+      ),
+    ),
     'description' => array(
       'description_field' => 'mods_abstract_ms',
       'description_label' => '<none>',
