@@ -1236,7 +1236,7 @@ function saic_solr_metadata_display_feature_islandora_solr_metadata_configuratio
     ),
     'description' => array(
       'description_field' => 'mods_abstract_ms',
-      'description_label' => '<none>',
+      'description_label' => '',
       'description_data' => array(
         'truncation' => array(
           'truncation_type' => 'separate_value_option',
